@@ -7,16 +7,12 @@ The Matlab solver is called by
 
 Input:
 
-X: 2x4 3D-coordinates (the 3D plane is assumed to be z=0) 
+* X: 2x4 3D-coordinates (the 3D plane is assumed to be z=0) 
+* U: 2x4 image coordinates
 
-U: 2x4 image coordinates
+Output: (returns n solutions)
 
-Output:
-
-returns n solutions, 
-Rsol: contains cell 1xn of rotations
-tsol: 3xn translations
-
-fsol: 1xn focal lengths
-
-ksol: 1xn radial distortion 
+* Rsol: contains cell 1xn of rotations
+* tsol: 3xn translations
+* fsol: 1xn focal lengths
+* ksol: 1xn radial distortion 

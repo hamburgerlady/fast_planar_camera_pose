@@ -14,9 +14,7 @@ U: 2x4 image coordinates
 Output:
 
 returns n solutions, 
-
 Rsol: contains cell 1xn of rotations
-
 tsol: 3xn translations
 
 fsol: 1xn focal lengths
